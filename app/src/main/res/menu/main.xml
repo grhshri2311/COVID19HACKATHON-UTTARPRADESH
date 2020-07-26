@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/assistant"
+        android:id="@+id/chatbot"
+        app:showAsAction="always"
+        android:icon="@drawable/chatboticon1"
+        android:iconTint="#ffffff" />
+
+
+    <item
+        android:title="@string/translate"
+        android:id="@+id/translate"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_translate_24" />
+
+    <item
+        android:id="@+id/nav_qr"
+        android:icon="@drawable/qrmenuicon"
+        android:iconTint="#fff"
+        android:title="@string/generate_scan_qr"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/identity"
+        android:icon="@drawable/verification"
+        android:title="@string/identity_verification"
+        android:iconTint="#333333"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="ifRoom"
+        android:iconTint="#fff"
+        android:title="@string/setting" />
+    <item
+        android:title="@string/share"
+        android:id="@+id/share"
+        app:showAsAction="ifRoom"
+        android:iconTint="#fff"
+        android:icon="@drawable/ic_share_black_24dp" />
+    <item
+        android:title="@string/logout"
+        android:id="@+id/logoutmenu"
+        app:showAsAction="ifRoom"
+        android:iconTint="#fff"
+        android:icon="@drawable/ic_exit_to_app_black_24dp" />
+</menu>

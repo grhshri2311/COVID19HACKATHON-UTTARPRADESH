@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.gprs.uttarpradesh"
+    android:hardwareAccelerated="false">
+
+    <dist:module dist:instant="true" />
+
+    <uses-feature
+        android:name="android.hardware.fingerprint"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/collective_intelligence_icon_use"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/collective_intelligence_icon_use"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Quora"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Media"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectVolunteer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AssignWork"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Isolation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OrphanAndVulnerable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectLocation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MaterialCollection"
+            android:label="@string/title_activity_material_collection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoCounselling"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Counselling"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CounsellingChat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".testing"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VerifyIdentitymonitor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IdentityVerification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IdentityRegistrationForm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ToDoHome"
+            android:label="@string/title_activity_to_do_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WorkAssignHome"
+            android:label="@string/title_activity_work_assign_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelfAssessment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".unorganizedsectors"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QRcode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scanner"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".publichealthcare"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".course"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cases_report"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".news"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".logouthome"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MSME"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Labsfortestingandresults"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".stepstofollow"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".alarmremember"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".epass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Alarm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".donate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pdfViewer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".helpline"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".firstaidgiudance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Medicalshops"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".help"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".firstreply"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".firstresponder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".internetalert"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".victimalert"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".foundvictim"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chatbot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Detailed"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".visualize"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAfy6YVB_UU8GrSG7r2yxn4BTCbDNc3kC0" />
+
+        <activity
+            android:name=".test"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Forgotpassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".intro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MapsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".youtube"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Register" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".VictimAlertForegroundNotification"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":geoFencing" />
+
+        <receiver android:name=".HelpneededBroadcastReceiver" />
+        <receiver
+            android:name=".Restarter"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="VictimAlert" />
+                <action android:name="Alarm" />
+                <action android:name="Help" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".InternetBroadcastReciever"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.INPUT_METHOD_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".YourLocationBroadcastReciever" />
+
+        <service
+            android:name=".AlarmForegroundNotification"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":Alarm" />
+
+        <receiver android:name=".MyNotificationBroadcastReceiver" />
+    </application>
+
+</manifest>

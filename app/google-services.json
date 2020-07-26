@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "167266659881",
+    "firebase_url": "https://covid19hackathon-uttarpradesh.firebaseio.com",
+    "project_id": "covid19hackathon-uttarpradesh",
+    "storage_bucket": "covid19hackathon-uttarpradesh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167266659881:android:19dcf0b3306314fff87638",
+        "android_client_info": {
+          "package_name": "com.gprs.uttarpradesh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167266659881-ml6m7qk8hnedoa53tat46p2ectd0v83s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gprs.uttarpradesh",
+            "certificate_hash": "ca6ea1e4d8597470f0d600e05a10a7c5c9ef37da"
+          }
+        },
+        {
+          "client_id": "167266659881-5a3k8ho4kr6ea3s8snibd4t8hp107lhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIdmC5apCyPB3X2lKtEIhAZCJCScOqGV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167266659881-5a3k8ho4kr6ea3s8snibd4t8hp107lhi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
